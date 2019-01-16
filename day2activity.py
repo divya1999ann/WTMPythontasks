@@ -17,9 +17,12 @@ def switch(x):
   else:
     pass
     
-#5
+#4
 def func(name,age,school):
     obj={'name':name,'age':age,'school':school}
     return obj
 x=func('divya',20,'gbcs')
 print(x)
+
+#5
+#I will complete within some time
