@@ -45,4 +45,18 @@ m=int(input("\nEnter age"))
 s1=student(n,m)
 s1.setage()
 s1.setmarks()
+	    
+#email task
+import smtplib
+content="hi hello there "
+mail=smtplib.SMTP('smtp.gmail.com',587)
+mail.ehlo()
+mail.starttls()
+mail.login('divya.kurien@gmail.com','divyamol')
+mail.sendmail('divya.kurien@gmail.com','lisa.wst@gmail.com',content)
+mail.close()	    
+	    
+	    
+	    
+	    
 
