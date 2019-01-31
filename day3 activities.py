@@ -52,8 +52,8 @@ content="hi hello there "
 mail=smtplib.SMTP('smtp.gmail.com',587)
 mail.ehlo()
 mail.starttls()
-mail.login('divya.kurien@gmail.com','divyamol')
-mail.sendmail('divya.kurien@gmail.com','lisa.wst@gmail.com',content)
+mail.login('email','password')
+mail.sendmail('frommail','tomail',content)
 mail.close()	    
 	    
 	    
